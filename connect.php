@@ -1,7 +1,7 @@
 <?php
-$dsn = "mysql:host=sql213.byethost15.com;dbname=b15_34111517_noteapp";
-$user = "b15_34111517";
-$pass = "**336699**";
+$dsn = "mysql:host=89.117.169.103;dbname=u700906284_noteapp";
+$user = "u700906284_islam";
+$pass = "Is253***";
 $option = array(
    PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES UTF8"
 );
@@ -17,7 +17,7 @@ try {
 
    include "functions.php" ;
     
-   // checkAuthenticate() ;
+   // checkAuthenticate() ; 
 } catch (PDOException $e) {
    echo $e->getMessage();
 }
